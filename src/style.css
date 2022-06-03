@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.btn{
+    @apply shadow-md py-3 px-6 rounded-md transition duration-300 capitalize
+}
+
+.btn-lilac {
+    @apply bg-custom-lilac text-white hover:bg-custom-white hover:text-black
+}
+
+.btn-white{
+    @apply bg-custom-white hover:bg-custom-lilac hover:text-white
+}
